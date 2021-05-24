@@ -1,0 +1,530 @@
+/*------------------------------- start Payment css-------------------*/
+ .payment{
+        background: #fff;
+        width: 90%;
+        margin: 20px auto;
+        padding-left: 22px;
+        padding-right: 22px;
+        box-shadow: 0 0 10px -3px grey;
+    }
+    .payment_menu{
+        background: #eeeeee;
+    }
+    
+        .payment_menu ul{
+        list-style: none;
+        padding: 0;
+        
+    }
+    .payment_menu ul li{
+        float: left;
+        margin-left: 10px;
+        
+    }
+    
+     .payment_card{
+    padding-left: 28px;
+    padding-right: 27px;
+   box-shadow: 0 0 10px -3px gainsboro;
+    padding-top: 54px;
+    padding-bottom: 39px;
+    margin-top: 10px;
+    border-radius: 63%;
+    background:#fff;
+    width: 161px;
+    }
+    .payment_card h4{
+          font-size: 22px;
+          text-align:center;
+        color: #717070;
+        font-weight: bold;
+    }
+    .payment_card h5{
+        color: #717070;
+         text-align:center;
+        font-weight: bold;
+    }
+    .payment_detail{
+        background: #fff;
+        margin-top: 20px;
+    }
+    .payment_detail p{
+        padding: 5px;
+        font-weight: bold;
+        margin-bottom: 0;
+        font-size: 11px;
+    }
+    .payment_header{
+        padding: 0;
+        margin: 0;
+        background: #eee;
+    }
+    .payment_row{
+        border-bottom: 1px solid #8080801a!important;
+        padding: 0;
+        margin: 0;
+    }
+    .payment_left{
+       color:black;
+        padding-top: 10px;
+        
+    }
+    .right_heading{
+        border-bottom: 1px solid #8080801a!important;
+        padding: 0;
+        margin: 0;
+        font-weight: bold;
+    }
+    .right_heading_second{
+        padding: 0;
+        margin: 0;
+        font-weight: bold;
+        padding-top: 20px;
+    }
+    .right_heading_second h5{
+        font-weight: bold;
+        padding-left: 13px;
+    }
+    .right_heading h5{
+        font-weight: bold;
+        padding-left: 13px;
+    }
+    .right_detail{
+        padding: 0;
+        margin: 0;
+        padding-top: 7px;
+    }
+    .currancy_row{
+        background: #eeeeee;
+        padding: 10px;
+        margin: 20px 0;
+    }
+    .currancy_row h5{
+        font-weight: bold;
+    }
+    .cur_detail{
+        margin: 0;
+    }
+    .cur_detail {
+        margin: 14px 0;
+        padding-bottom: 26px;
+        border-bottom: 1px solid #ded7d7;
+    }
+    .withdraw_btn{
+        background:#5bc0de;
+        color:#fff;
+    }
+    .withdraw_btn:hover{
+        background:#5bc0de;
+        color:#fff;
+    }
+    .price_dollor{
+        color: #5bc0de;
+    }
+    .ok_btn{
+        background:#5bc0de;
+        color: #fff;
+        padding: 6px 24px;
+    }
+    .ok_btn:hover{
+         background:#5bc0de;
+        color:#fff;
+    }
+   .payment_method{
+        border-bottom: 1px solid #f1e9e9;
+        padding: 15px;
+    }
+    
+        @media screen and (max-width: 767px){
+        .payment_left{
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .payment h1{
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+        .payment_card h4{
+            font-size: 14px;
+        }
+        .payment_card h5{
+            font-size: 11px;
+        }
+        .payment_leftside{
+            
+        }
+    }
+    
+     .payment_leftside{
+         padding:9px;   
+        }
+    .edi_collapse{
+        background: #eeeeee;
+        padding: 5px;
+        margin: 6px 0;
+    
+    }
+    .detail_collpse{
+        padding: 13px;
+    }
+    .approved_btn{
+        background: #5bc0de;
+        color: #fff;
+    }
+    .approved_btn:hover{
+        color: #fff;
+    }
+    .view_btn{
+        color:#5bc0de;
+    }
+    .detail_collpse img{
+        width: 17px;
+        margin-right: 17px;
+    }
+    .detail_collpse i{
+        margin-top: 8px;
+        font-size: 13px;
+        color: #333;
+    }
+    #payment_model{
+        display: none;
+    }
+    .add_newaccount{
+        color: #5bc0de;
+        font-weight: bold;
+        border: 1px solid #5bc0de;
+    }
+    .add_newaccount:hover{
+        color: #5bc0de;
+    }
+    .addbtn_row{
+        text-align: center;
+        background: #fff;
+        width: 97%;
+        padding: 12px;
+        margin: auto;
+    }
+    .account_new img{
+        width: 20px;
+        margin: 0 41px;
+    }
+    #addaccount{
+        top: 290px!important;
+    }
+    
+
+@media screen and (max-width: 517px) and (min-width:340px){
+
+.invoicee_detailse_wapr{
+        overflow-x: auto!important;
+        width: 100%!important;
+    }
+    .invoicee_detailse{
+       width: 614px!important;
+        overflow-x: auto!important;
+    }
+    
+     .invoicee_detailse2{
+       width: 487px!important;
+        overflow-x: auto!important;
+    }
+    
+}
+    
+.price_dollor_button
+{
+    margin-top:10px;
+    
+}
+
+
+.transcation_ul
+{
+    display:flex;
+    list-style-type:none;
+    padding:0px;
+}
+
+.transcation_ul >li
+{
+    margin-right: 31px;
+    padding-bottom: 10px;
+}
+
+.transcation_li
+{
+    margin-top:3px;
+    color:#5bc0de;
+}
+
+
+@media screen and (max-width: 765px) and (min-width:340px){
+.transcation_ul >li
+{
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.payment_card {
+    padding-top: 28px;
+    padding-bottom: 27px;
+    margin-top: 10px;
+    border-radius: 90%;
+    margin:auto;
+    width:120px;
+}
+
+.payment_card_div
+{
+    margin-bottom: 11px;
+}
+
+
+}
+
+.account_span
+{
+margin-right:10px;
+}
+
+.nav-tabs2>li
+{
+    padding-right: 16%;
+}
+
+
+@media screen and (max-width: 764px) and (min-width:386px){
+.nav-tabs2>li{
+          padding-right:0%;
+       }
+    
+}
+
+
+
+@media screen and (max-width: 765px) and (min-width:340px){
+.transcation_ul >li
+{
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+}
+
+
+@media screen and (max-width: 386px) and (min-width:345px){
+
+.transcation_ul >li {
+    margin-right: 7px !important;
+}
+    
+}
+
+@media screen and (max-width: 764px) and (min-width:340px){
+.nav-tabs2>li {
+    padding-right: 0%;
+    
+}
+}
+
+
+.circle {
+  position: relative;
+  transition: all 0.75s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.circle::after, .circle::before {
+  border-radius: 156px;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: scale(0);
+  transition: all 0.5s ease-in-out 0s;
+  width: 100%;
+  z-index: 3;
+}
+
+.circle::before {
+  border: 2px solid #5bc0de;
+  transform-origin: 0 100% 0;
+}
+
+.circle::after {
+  border: 2px solid #5bc0de;
+  transform-origin: 100% 0 0;
+}
+
+.circle:hover::after, button:hover::before {
+  transform: scale(1,1);
+}
+
+.spin{
+    cursor:pointer;
+}
+.spin::before,
+.spin::after {
+    top: 0;
+    left: 0;
+}
+
+.spin::before {
+    border: 2px solid transparent;
+}
+
+.spin:hover::before {
+    border-top-color: #0eb7da;
+    border-right-color: #0eb7da;
+    border-bottom-color: #0eb7da;
+    transition: border-top-color 0.15s linear, border-right-color 0.15s linear 0.10s, border-bottom-color 0.15s linear 0.20s;
+}
+
+.spin::after {
+    border: 0 solid transparent;
+}
+
+.spin:hover::after {
+    border-top: 2px solid #0eb7da;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(270deg);
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s, -webkit-transform 0.4s linear 0s;
+}
+
+.circle1 {
+    border-radius: 100%;
+}
+
+.circle1::before,
+.circle1::after {
+    border-radius: 100%;
+}
+
+.circle3 {
+    border: 0;
+    position: relative;
+}
+
+.circle3::before,
+.circle3::after {
+    box-sizing: inherit;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 102%;
+}
+
+@media screen and (max-width: 764px) and (min-width:340px){
+.spin:hover::after {
+             border-left-width:0px;
+              border-right-width: 0px;
+       }
+.circle3::before,.circle3::after
+{
+    width: 101%;
+    height: 102%;
+}
+    
+}
+
+.cross_btn:hover{
+    cursor:pointer;
+}
+
+.attach_docbtn
+{
+    text-align:right;
+}
+@media screen and (max-width: 764px) and (min-width:340px){
+   .attach_docbtn
+   {
+   text-align: center;
+    margin-top: 44px;
+   }
+}
+
+
+@media screen and (max-width: 409px) and (min-width:340px){
+.verify_document
+   {
+       margin:0px;
+       padding:0px;
+   }
+}
+
+
+.verify_document2
+{
+    margin-top: 9px;
+}
+
+@media screen and (max-width: 764px) and (min-width:340px){
+   .verify_document2
+   {
+       text-align: right;
+   }
+}
+
+#edit_doc3
+{
+ height:auto!important;   
+}
+
+.description
+{
+    margin-top: 9px;
+}
+
+#error_withdrawal{
+     margin-top: 9px;
+     color:red;
+}
+
+
+
+/************************************************************/
+
+.WrprJobTitle{padding-top:12px;}
+.WrprPaymentSummary{border: 1px solid #ccc;padding-bottom:20px;}
+.serviceQty{
+    width: 59px;
+    margin-left: 21px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 765px) {
+ .section-padding
+ {
+     padding:0px !important;
+ }
+ 
+ .chekc_box
+ {
+     float:left;
+ }
+ 
+ .chekc_box1
+ {
+     float:left;
+     margin-left:0px !important;
+ }
+ 
+ 
+ .chekc_box2
+ {
+     float:left;
+ }
+}
+
+
+@media screen and (max-width: 922px) and (min-width:340px){
+.checkbox label
+{
+ display: inline-block;   
+}
+
+}
+
+
+/*------------------------------- end Payment css-------------------*/

@@ -1,0 +1,363 @@
+body,html {
+	margin: auto auto;
+	width:100%;
+	height: 100%;	
+	display: table;
+	background: #F5F5F5 !important;
+}
+
+.wrapper {	
+	height: 300px;
+	margin:0 auto; 
+    display: table-cell;
+    vertical-align: middle;
+
+
+}
+
+.wrapper-content{
+	
+	max-width: 620px;
+	height: 520px;
+	margin:0 auto; 
+	box-shadow: 1px 1px 7px 0.2px #fff;  
+	position: relative;
+	background: #fff;
+	
+
+}
+
+
+
+#form-wrap-email{
+/*	width: 50%;
+	left: 25%;
+	border-radius: 2px;
+	border:1px solid #fff;
+	box-shadow: 0px 1px 7px 0.2px #B5B5B5; 
+	position: absolute;
+	background: #fff;*/
+}
+
+.buttons_div{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.alert {
+    padding: 4px !important;
+}
+
+#form-wrap-email .buttons_div a
+{
+	width: 80%;
+	margin:3px 10%;
+ 	border-radius: 1px;
+ 	font-family: sans-serif;
+ 	font-size: 13px;
+ 	font-style: normal;
+ 	text-align: center;
+    display:inline-block;
+    text-decoration: none !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+    padding: 5px 20px;
+ 	box-shadow: 0px 1px 7px 0.2px #B5B5B5;
+ 	
+ 	
+}
+
+#form-wrap-email .buttons_div a>i{
+  color:#fff;
+  float: left;
+  margin-left: -15px;
+  font-size: 16px;
+}
+
+#form-wrap-email .line{
+  width: 80%;
+  left: 10%;
+  text-align: center;
+  position: absolute;
+  border-top:1px solid grey;
+ 
+}
+
+#form-wrap-email .line span{
+  color:#7A7A7A;
+  background-color: #fff;
+  padding: 3px 10px;
+  position: absolute;
+  font-size: 14px;
+  margin-top: -13px;
+  margin-left: -20px;
+ 
+}
+
+#form-wrap-email .buttons_div .icon-google{
+	background-image: url('../img/google.png');
+	background-size:cover;
+	height: 18px;
+	width:30px;
+	float:left;
+	margin-left: -23px;
+}
+#form-wrap-email .buttons_div #facebook
+{
+	background-color: #4167b2;
+	color:#fff;
+}
+#form-wrap-email .buttons_div #google
+{
+	background-color: #dd4b39;
+	color:white;
+}
+#form-wrap-email .buttons_div #twitter
+{
+	background-color: #23aae2;
+	color:#fff;
+}
+#form-wrap-email .buttons_div #linkedin
+{
+	background-color: #0a77ba;
+	color:#fff;
+}
+
+
+#form-wrap-password{
+	width: 50%;
+	height: 350px;
+	left: 25%;
+	border-radius: 2px;
+	border:1px solid #fff;
+	box-shadow: 0px 1px 7px 0.2px #B5B5B5; 
+	position: absolute;
+	background: #fff;
+}
+
+
+.form-wrap-head
+{
+	padding-bottom:15px;
+	padding-top: 15px;
+}
+.form-wrap-head img
+{	
+	height: 50px;
+	margin-top: 0px;
+	display:block;
+    margin:auto;
+}
+
+.form-signin {
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  
+ }
+
+ .form-signin input[type="text"],input[type="password"]{
+ 	border:1px solid #fff;
+ 	box-shadow: 0px 1px 7px 0.2px #B5B5B5; 
+ 	border-radius: 2px;
+ 	padding: 8px 10px;
+ 	text-align: center;
+ 	font-size: 14px;
+ 	font-weight: 500;
+ 	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+    width: 80%;
+    margin:20px 10%;
+ }
+
+ .form-signin input[type="email"],input[type="password"]{
+  border:1px solid #fff;
+  box-shadow: 0px 1px 7px 0.2px #B5B5B5; 
+  border-radius: 2px;
+  padding: 8px 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    width: 80%;
+    margin:20px 10%;
+ }
+
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+.submit_btn{
+ 	background-color: #36A3E6;
+ 	padding: 8px 10px;
+ 	border:1px solid #36A3E6;
+ 	margin-left: 25px;
+ 	box-shadow: 0px 1px 7px 0.2px #36A3E6; 
+ 	border-radius: 2px;
+ 	color:#fff;
+ 	font-size: 15px;
+ 	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+    width: 80%;
+    margin:10px 10%;
+ }
+
+ .form-heading
+ {	
+ 	padding-top: 14px;
+ 	font-size: 14px;
+ 	color: #646464;
+ 	font-family: sans-serif;
+ 	font-weight: bold;
+ 	text-align: center;
+ }
+
+
+ .form-wrap-bottom{
+ 	height: auto;
+ 	top:25px;
+ 	border-top: 1px solid #B9B9B9;
+    margin-top: 25px;
+	width: 80%;
+	margin-left: 10%;
+	position: relative;
+	
+
+ }
+
+ .form-wrap-bottom p{
+ 	font-family: sans-serif;
+ 	font-size: 14px;
+ 	text-align: center;
+ 	color: #9E9E9E;
+ }
+
+ .form-wrap-bottom a{
+ 	position: absolute;
+ 	left:28%;
+ 	background-color: #fff;
+ 	color: #36A3E6;
+ 	border-radius: 2px;
+ 	font-family: sans-serif;
+ 	font-size: 16px;
+ 	font-style: normal;
+ 	text-align: center;
+    display:inline-block;
+    text-decoration: none !important;
+    padding: 7px 20px;
+ 	box-shadow: 0px 1px 7px 0.2px #B5B5B5; 
+
+
+
+ }
+
+
+
+/***   SIGN UP PAGE ****/
+
+.form-signup {
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  
+ }
+
+ .form-signup .form-input {
+ 	display: block;
+ 	width: 80%;
+ 	margin-left: 10%;
+
+ }
+
+  .form-signup .form-input input[type="text"] {
+ 	display: inline;
+ 	width:49%;
+ 	border:1px solid #fff;
+ 	box-shadow: 0px 1px 7px 0.2px #B5B5B5; 
+ 	border-radius: 2px;
+ 	padding: 8px 10px;
+ 	text-align: center;
+ 	font-size: 14px;
+ 	font-weight: 500;
+ 	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+    margin-top: 10px;
+ }
+
+
+ .form-signup .input-textfield{
+ 	border:1px solid #fff;
+ 	box-shadow: 0px 1px 7px 0.2px #B5B5B5; 
+ 	border-radius: 2px;
+ 	padding: 8px 10px;
+ 	text-align: center;
+ 	font-size: 14px;
+ 	font-weight: 500;
+ 	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+    width: 80%;
+    margin:10px 10%;
+ }
+
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+.form-signup  label{
+	color:red;
+	float: right;
+	margin-right: 38px;
+	font-size: 12px;
+	font-family: sans-serif;
+	color: #36A3E6;
+}
+
+.form-signup .submit_btn{
+ 	background-color: #36A3E6;
+ 	padding: 8px 10px;
+ 	border:1px solid #36A3E6;
+ 	margin-left: 25px;
+ 	box-shadow: 0px 1px 7px 0.2px #36A3E6; 
+ 	border-radius: 2px;
+ 	color:#fff;
+ 	font-size: 15px;
+ 	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+    width: 80%;
+    margin:15px 10%;
+ }
